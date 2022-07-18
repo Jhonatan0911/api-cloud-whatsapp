@@ -2,7 +2,7 @@ import { Module } from '@nestjs/common';
 import { RequestService } from './request.service';
 import { RequestController } from './request.controller';
 import { MongooseModule } from '@nestjs/mongoose';
-import { RequestSchema } from './schemas/Request.schema';
+import { RequestSchema } from 'src/saveDatabase/sendUser/schemas/Request.schema';
 
 @Module({
     imports: [
