@@ -6,7 +6,7 @@ import { Response } from './interfaces/response';
 
 
 @ApiTags('Response')
-@Controller('response')
+@Controller('bot')
 export class ResponseController {
 
     constructor(

@@ -6,7 +6,7 @@ import { Request } from './interfaces/request';
 
 
 @ApiTags('Requests')
-@Controller('request')
+@Controller('user')
 export class RequestController {
 
     constructor(
